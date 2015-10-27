@@ -1,0 +1,132 @@
+[1 of 1] Compiling Main             ( /tmp/wreq-0.1.0.1-29869/wreq-0.1.0.1/dist/dist-sandbox-bf8cb0e2/setup/setup.hs, /tmp/wreq-0.1.0.1-29869/wreq-0.1.0.1/dist/dist-sandbox-bf8cb0e2/setup/Main.o )
+Linking /tmp/wreq-0.1.0.1-29869/wreq-0.1.0.1/dist/dist-sandbox-bf8cb0e2/setup/setup ...
+Configuring wreq-0.1.0.1...
+Building wreq-0.1.0.1...
+Preprocessing library wreq-0.1.0.1...
+[ 1 of 11] Compiling Network.Wreq.Lens.Machinery ( Network/Wreq/Lens/Machinery.hs, dist/dist-sandbox-bf8cb0e2/build/Network/Wreq/Lens/Machinery.o )
+[ 2 of 11] Compiling Paths_wreq       ( dist/dist-sandbox-bf8cb0e2/build/autogen/Paths_wreq.hs, dist/dist-sandbox-bf8cb0e2/build/Paths_wreq.o )
+[ 3 of 11] Compiling Network.Wreq.Internal.Types ( Network/Wreq/Internal/Types.hs, dist/dist-sandbox-bf8cb0e2/build/Network/Wreq/Internal/Types.o )
+[ 4 of 11] Compiling Network.Wreq.Internal.Lens ( Network/Wreq/Internal/Lens.hs, dist/dist-sandbox-bf8cb0e2/build/Network/Wreq/Internal/Lens.o )
+Loading package ghc-prim ... linking ... done.
+Loading package integer-gmp ... linking ... done.
+Loading package base ... linking ... done.
+Loading package array-0.5.0.0 ... linking ... done.
+Loading package deepseq-1.3.0.2 ... linking ... done.
+Loading package bytestring-0.10.4.0 ... linking ... done.
+Loading package containers-0.5.5.1 ... linking ... done.
+Loading package text-1.1.1.3 ... linking ... done.
+Loading package hashable-1.2.3.1 ... linking ... done.
+Loading package scientific-0.3.3.7 ... linking ... done.
+Loading package attoparsec-0.12.1.3 ... linking ... done.
+Loading package dlist-0.7.1 ... linking ... done.
+Loading package transformers-0.3.0.0 ... linking ... done.
+Loading package mtl-2.1.3.1 ... linking ... done.
+Loading package old-locale-1.0.0.6 ... linking ... done.
+Loading package syb-0.4.1 ... linking ... done.
+Loading package pretty-1.1.1.1 ... linking ... done.
+Loading package template-haskell ... linking ... done.
+Loading package time-1.4.2 ... linking ... done.
+Loading package unordered-containers-0.2.5.1 ... linking ... done.
+Loading package primitive-0.5.2.1 ... linking ... done.
+Loading package vector-0.10.9.1 ... linking ... done.
+Loading package aeson-0.7.0.6 ... linking ... done.
+Loading package nats-1 ... linking ... done.
+Loading package semigroups-0.16.1 ... linking ... done.
+Loading package transformers-compat-0.4.0.3 ... linking ... done.
+Loading package void-0.7 ... linking ... done.
+Loading package contravariant-1.2.0.1 ... linking ... done.
+Loading package tagged-0.7.3 ... linking ... done.
+Loading package distributive-0.4.4 ... linking ... done.
+Loading package comonad-4.2.2 ... linking ... done.
+Loading package semigroupoids-4.3 ... linking ... done.
+Loading package bifunctors-4.2 ... linking ... done.
+Loading package stm-2.4.2 ... linking ... done.
+Loading package exceptions-0.8 ... linking ... done.
+Loading package filepath-1.3.0.2 ... linking ... done.
+Loading package prelude-extras-0.4 ... linking ... done.
+Loading package profunctors-4.3.2 ... linking ... done.
+Loading package free-4.10.0.1 ... linking ... done.
+Loading package parallel-3.2.0.4 ... linking ... done.
+Loading package reflection-1.5.1.1 ... linking ... done.
+Loading package split-0.2.2 ... linking ... done.
+Loading package zlib-0.5.4.1 ... linking ... done.
+Loading package lens-4.3.3 ... linking ... done.
+Loading package byteable-0.1.1 ... linking ... done.
+Loading package securemem-0.1.7 ... linking ... done.
+Loading package unix-2.7.0.1 ... linking ... done.
+Loading package crypto-random-0.0.8 ... linking ... done.
+Loading package data-default-class-0.0.1 ... linking ... done.
+Loading package network-2.6.0.2 ... linking ... done.
+Loading package cereal-0.4.1.1 ... linking ... done.
+Loading package socks-0.5.4 ... linking ... done.
+Loading package hourglass-0.2.8 ... linking ... done.
+Loading package asn1-types-0.3.0 ... linking ... done.
+Loading package asn1-encoding-0.9.0 ... linking ... done.
+Loading package async-2.0.1.5 ... linking ... done.
+Loading package crypto-cipher-types-0.0.9 ... linking ... done.
+Loading package cipher-aes-0.2.10 ... linking ... done.
+Loading package cipher-des-0.0.6 ... linking ... done.
+Loading package cipher-rc4-0.1.4 ... linking ... done.
+Loading package crypto-numbers-0.2.7 ... linking ... done.
+Loading package crypto-pubkey-types-0.4.3 ... linking ... done.
+Loading package cryptohash-0.11.6 ... linking ... done.
+Loading package crypto-pubkey-0.2.8 ... linking ... done.
+Loading package asn1-parse-0.9.0 ... linking ... done.
+Loading package directory-1.2.1.0 ... linking ... done.
+Loading package base64-bytestring-1.0.0.1 ... linking ... done.
+Loading package pem-0.2.2 ... linking ... done.
+Loading package process-1.2.0.0 ... linking ... done.
+Loading package x509-1.5.0.1 ... linking ... done.
+Loading package x509-store-1.5.0 ... linking ... done.
+Loading package x509-validation-1.5.1 ... linking ... done.
+Loading package tls-1.2.16 ... linking ... done.
+Loading package x509-system-1.5.0 ... linking ... done.
+Loading package connection-0.2.4 ... linking ... done.
+Loading package blaze-builder-0.4.0.1 ... linking ... done.
+Loading package case-insensitive-1.2.0.4 ... linking ... done.
+Loading package data-default-instances-base-0.0.1 ... linking ... done.
+Loading package data-default-instances-containers-0.0.1 ... linking ... done.
+Loading package data-default-instances-dlist-0.0.1 ... linking ... done.
+Loading package data-default-instances-old-locale-0.0.1 ... linking ... done.
+Loading package data-default-0.5.3 ... linking ... done.
+Loading package cookie-0.4.1.4 ... linking ... done.
+Loading package http-types-0.8.6 ... linking ... done.
+Loading package mime-types-0.1.0.5 ... linking ... done.
+Loading package parsec-3.1.8 ... linking ... done.
+Loading package network-uri-2.6.0.1 ... linking ... done.
+Loading package utf8-string-1 ... linking ... done.
+Loading package publicsuffixlist-0.1 ... linking ... done.
+Loading package random-1.0.1.1 ... linking ... done.
+Loading package streaming-commons-0.1.10.0 ... linking ... done.
+Loading package http-client-0.4.7.1 ... linking ... done.
+Loading package http-client-tls-0.2.2 ... linking ... done.
+
+Network/Wreq/Internal/Lens.hs:38:1: Warning:
+    Defined but not used: ‘requestVersion’
+
+Network/Wreq/Internal/Lens.hs:38:1: Warning:
+    Defined but not used: ‘onRequestBodyException’
+[ 5 of 11] Compiling Network.Wreq.Types ( Network/Wreq/Types.hs, dist/dist-sandbox-bf8cb0e2/build/Network/Wreq/Types.o )
+[ 6 of 11] Compiling Network.Wreq.Internal.Link ( Network/Wreq/Internal/Link.hs, dist/dist-sandbox-bf8cb0e2/build/Network/Wreq/Internal/Link.o )
+[ 7 of 11] Compiling Network.Wreq.Lens.TH ( Network/Wreq/Lens/TH.hs, dist/dist-sandbox-bf8cb0e2/build/Network/Wreq/Lens/TH.o )
+
+Network/Wreq/Lens/TH.hs:63:1: Warning:
+    The import of ‘Control.Lens.TH’ is redundant
+      except perhaps to import instances from ‘Control.Lens.TH’
+    To import instances alone, use: import Control.Lens.TH()
+
+Network/Wreq/Lens/TH.hs:81:1: Warning:
+    Defined but not used: ‘partHeaders’
+[ 8 of 11] Compiling Network.Wreq.Lens ( Network/Wreq/Lens.hs, dist/dist-sandbox-bf8cb0e2/build/Network/Wreq/Lens.o )
+
+Network/Wreq/Lens.hs:101:1: Warning:
+    Module ‘Data.Attoparsec’ is deprecated:
+      This module will be removed in the next major release.
+[ 9 of 11] Compiling Network.Wreq.Internal ( Network/Wreq/Internal.hs, dist/dist-sandbox-bf8cb0e2/build/Network/Wreq/Internal.o )
+[10 of 11] Compiling Network.Wreq     ( Network/Wreq.hs, dist/dist-sandbox-bf8cb0e2/build/Network/Wreq.o )
+[11 of 11] Compiling Network.Wreq.Session ( Network/Wreq/Session.hs, dist/dist-sandbox-bf8cb0e2/build/Network/Wreq/Session.o )
+In-place registering wreq-0.1.0.1...
+Creating package registration file: /tmp/pkgConf-wreq-0.1.029869.1
+Installing library in
+/home/akh/quotebot/.cabal-sandbox/lib/x86_64-linux-ghc-7.8.3/wreq-0.1.0.1
+Registering wreq-0.1.0.1...

@@ -1,0 +1,24 @@
+Configuring x509-1.5.0.1...
+Building x509-1.5.0.1...
+Preprocessing library x509-1.5.0.1...
+[ 1 of 12] Compiling Data.X509.Internal ( Data/X509/Internal.hs, dist/dist-sandbox-bf8cb0e2/build/Data/X509/Internal.o )
+
+Data/X509/Internal.hs:29:1: Warning:
+    Top-level binding with no type signature:
+      runErrT :: forall e (m :: * -> *) a. ErrorT e m a -> m (Either e a)
+[ 2 of 12] Compiling Data.X509.DistinguishedName ( Data/X509/DistinguishedName.hs, dist/dist-sandbox-bf8cb0e2/build/Data/X509/DistinguishedName.o )
+[ 3 of 12] Compiling Data.X509.ExtensionRaw ( Data/X509/ExtensionRaw.hs, dist/dist-sandbox-bf8cb0e2/build/Data/X509/ExtensionRaw.o )
+[ 4 of 12] Compiling Data.X509.Ext    ( Data/X509/Ext.hs, dist/dist-sandbox-bf8cb0e2/build/Data/X509/Ext.o )
+[ 5 of 12] Compiling Data.X509.AlgorithmIdentifier ( Data/X509/AlgorithmIdentifier.hs, dist/dist-sandbox-bf8cb0e2/build/Data/X509/AlgorithmIdentifier.o )
+[ 6 of 12] Compiling Data.X509.CRL    ( Data/X509/CRL.hs, dist/dist-sandbox-bf8cb0e2/build/Data/X509/CRL.o )
+[ 7 of 12] Compiling Data.X509.Signed ( Data/X509/Signed.hs, dist/dist-sandbox-bf8cb0e2/build/Data/X509/Signed.o )
+[ 8 of 12] Compiling Data.X509.PublicKey ( Data/X509/PublicKey.hs, dist/dist-sandbox-bf8cb0e2/build/Data/X509/PublicKey.o )
+[ 9 of 12] Compiling Data.X509.Cert   ( Data/X509/Cert.hs, dist/dist-sandbox-bf8cb0e2/build/Data/X509/Cert.o )
+[10 of 12] Compiling Data.X509.CertificateChain ( Data/X509/CertificateChain.hs, dist/dist-sandbox-bf8cb0e2/build/Data/X509/CertificateChain.o )
+[11 of 12] Compiling Data.X509.PrivateKey ( Data/X509/PrivateKey.hs, dist/dist-sandbox-bf8cb0e2/build/Data/X509/PrivateKey.o )
+[12 of 12] Compiling Data.X509        ( Data/X509.hs, dist/dist-sandbox-bf8cb0e2/build/Data/X509.o )
+In-place registering x509-1.5.0.1...
+Creating package registration file: /tmp/pkgConf-x509-1.5.029869.1
+Installing library in
+/home/akh/quotebot/.cabal-sandbox/lib/x86_64-linux-ghc-7.8.3/x509-1.5.0.1
+Registering x509-1.5.0.1...
