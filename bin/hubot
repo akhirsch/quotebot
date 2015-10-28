@@ -4,5 +4,5 @@ set -e
 
 npm install
 export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
-
-exec node_modules/.bin/hubot --name "quotebot" "$@"
+export HUBOT_SLACK_TOKEN=xoxb-7726938961-CucC0cN0NOZgMxybne3pAkZ1 
+exec ~/quotebot/node_modules/.bin/hubot --name "quotebot" --adapter slack "$@"
