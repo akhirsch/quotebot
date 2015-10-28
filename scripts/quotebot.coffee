@@ -6,10 +6,7 @@ module.exports = (robot) ->
 
         botname = "quotebot"
 
-        console.log("Botname: " + botname)
-        
         robot.hear ///@#{botname}\s*:?\s+randquote///i, (res) ->
-                console.log(res.match)
                 http.get 'http://quotes.cs.cornell.edu/api/random/', (result) ->
                         success = [200, 304]
                         sc = result.statusCode
