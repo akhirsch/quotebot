@@ -4,10 +4,21 @@
 module.exports = (robot) ->
         http = require 'http'
 
+        host = 'quotes.cs.cornell.edu'
+        api_random = '/api/random/'
+
         botname = "quotebot"
 
-        access = (url, res) ->
-                http.get url, (result) ->
+        access = (name, res) ->
+                argstring = ""
+                escaped = name.replace ///\s+///, "%20"
+                argstring = "?speaker=#{escaped}" if name
+                opts = {
+                        hostname: host,
+                        path: api_random + argstring,
+                        }
+                console.log "Accessing with path #{opts.path}"
+                http.get opts, (result) ->
                         success = [200, 304]
                         sc = result.statusCode
                         if sc in success
@@ -20,11 +31,14 @@ module.exports = (robot) ->
                                 res.reply "Sorry, I couldn't connect to the quote server (I got status " + sc + "). Is it down?"
 
         robot.hear ///@#{botname}\s*:?\s*randquote///i, (res) ->
-                access url, res
+                access {}, res
                 
-        robot.hear ///@#{botname}\s*:\s*quotefrom///i, (res) ->
-                capture = ///@#{botname}\s*:\s*quotefrom\s+(.*)///i.exec res.match[2]
+        robot.hear ///@#{botname}\s*:\s*quotefrom\s+.*///i, (res) ->
+                regex = ///@#{botname}\s*:\s*quotefrom\s+(.*)///i
+                console.log("regex: #{regex}")
+                console.log("raw: #{res.match}")
+                capture = regex.exec res.match
+                console.log("Capture: #{capture}")
                 name = capture[1]
-                url = 'http://quotes.cs.cornell.edu/api/random'
-                url += '/?speaker=' + name if name and name != ""
-                access url, res
+                console.log("name: #{name}")
+                access name, res
