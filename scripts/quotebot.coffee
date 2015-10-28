@@ -17,7 +17,6 @@ module.exports = (robot) ->
                         hostname: host,
                         path: api_random + argstring,
                         }
-                console.log "Accessing with path #{opts.path}"
                 http.get opts, (result) ->
                         success = [200, 304]
                         sc = result.statusCode
@@ -35,10 +34,6 @@ module.exports = (robot) ->
                 
         robot.hear ///@#{botname}\s*:\s*quotefrom\s+.*///i, (res) ->
                 regex = ///@#{botname}\s*:\s*quotefrom\s+(.*)///i
-                console.log("regex: #{regex}")
-                console.log("raw: #{res.match}")
                 capture = regex.exec res.match
-                console.log("Capture: #{capture}")
                 name = capture[1]
-                console.log("name: #{name}")
                 access name, res
